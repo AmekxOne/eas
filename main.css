@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.boardContainer, #newContainer{
+    border: 1px solid black;
+    
+    height: 500px;
+    width: 500px;
+    margin:0 auto;
+
+    display: grid;
+}
